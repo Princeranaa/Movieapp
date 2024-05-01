@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* primary - #1F1E24 */
+/* secondary -  #6556CD */
+/* *{
+  overflow-x: auto;
+  overflow-y: au;
+} */
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #181819;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6556cd;
+  border-radius: 10px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-apppearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #27272a;
+  background-image: none;
+  flex-grow: 0; /* Allow the select element to grow and fill available space */
+  padding: 0 0.5em;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: "open Sans", sans-serif;
+}
+
+select::-ms-expand{
+ display: none;
+}
+
+.select {
+  position: relative;
+  display: flex;
+  width: 20em; /* Adjust width as needed */
+  height: 2em;
+  line-height: 2;
+  background: #27272a;
+  overflow: hidden;
+  border-radius: 0.1em;
+  color: black;
+}
+
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #27272a;
+  cursor: pointer;
+  pointer-events: none;
+  transition: 0.25s all ease;
+}
+
+.select:hover::after {
+  color: #6556cd;
+}
+
+
+
+
+
