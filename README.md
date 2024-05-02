@@ -1,8 +1,8 @@
 # React + Vite
 
   
- <h1 align="center">BlueBird-Movies</h1>
-BlueBird-Movies is a React-based movie website that allows users to search for movies by title, sort them by genre, view trending and upcoming movies, and bookmark their favorite movies. The website is designed to be user-friendly and visually appealing.
+ <h1 align="center">Movie-App</h1>
+Movie-App is a React-based movie website that allows users to search for movies by title, sort them by genre, view trending and upcoming movies, and bookmark their favorite movies. The website is designed to be user-friendly and visually appealing.
 <hr/>
 
 
